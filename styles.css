@@ -1,0 +1,49 @@
+body {
+    background-color: darkkhaki;
+}
+
+header {
+    background-color: bisque;
+    margin: 15px;
+}
+
+div.logo {
+    display: flex;
+    margin: 15px;
+}
+
+#logo {
+    height: 200px; width: 350px;
+    width: 20%;
+    float: left;
+    margin: 15px;
+}
+
+#name {
+    font-size: 400%;
+    margin-left: 600px;
+}
+
+#navbar {
+    border-style: solid;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul {
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+}
+  
+nav ul li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
