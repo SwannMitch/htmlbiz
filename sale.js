@@ -3,7 +3,7 @@ var hourNow = today.getHours();
 var sale;
 
 if (hourNow > 17) {
-    sale = 'Sale has esp!';
+    sale = 'Sale has expired!';
 } else if (hourNow > 12) {
     sale = 'Sale ends soon!';
 } else if (hourNow > 0) {
@@ -19,9 +19,11 @@ alert('These statements have not been evaluated by the Food and Drug Administrat
 var email = prompt('Please join our mailing list for exclusive deals!', 'valuedcustomer@mail.com')
 var reply;
 
-if (email == null) {
-    reply = 'Maybe next time!';
-} else (email !== null) ; {
+if (email === null) {
+    reply = 'Maybe next time.'; 
+} else if (email === '') {
+    reply = 'Maybe next time.'; 
+} else {
     reply = 'Thank you!';
 }
 
