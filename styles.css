@@ -22,6 +22,7 @@ div.logo {
 #name {
     font-size: 400%;
     margin-left: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #navbar {
@@ -34,16 +35,60 @@ div.logo {
 nav ul {
     list-style: none;
     justify-content: space-evenly;
+    text-align: center;
     margin: 0px;
     padding: 0px;
 }
   
 nav ul li {
     display: inline-block;
+    
     margin: 0px;
-    padding: 0px;
+    padding: 15px;
 }
 
 a {
     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
 }
+
+#left {
+    padding-right: 500px;
+}
+
+#right {
+    padding-left: 500px;
+}
+
+main {
+    background-color: bisque;
+    text-align: center;
+}
+
+#row {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+#leftlink {
+    float: left;
+    padding-right: 400px;
+    margin: 15px;
+}
+
+#rightlink {
+    float: right;
+    padding-left: 400px;
+    margin: 15px;
+}
+
+.text {
+    font-size: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.arrows {
+    height: 150px;
+    width: 200px;
+}   
