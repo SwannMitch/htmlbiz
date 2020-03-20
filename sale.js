@@ -36,3 +36,6 @@ function mailinglist(){
 
 alert(reply)
 }
+
+https://swannmitch.github.io/htmlbiz/
+I'm most proud of the function that tells the visitor whether the sale is occurring or not. It took a lot of troubleshooting until I rewrote it from scratch and then it worked.
