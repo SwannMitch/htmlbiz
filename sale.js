@@ -26,7 +26,7 @@ function mailinglist(){
     var email = prompt('Please join our mailing list for exclusive deals!', 'valuedcustomer@mail.com')
     var reply;
 
-        if (email === null) {
+        if (email === 'null') {
         reply = 'Maybe next time.'; 
     } else if (email === '') {
     reply = 'Maybe next time.'; 
@@ -37,8 +37,16 @@ function mailinglist(){
 alert(reply)
 }
 
-// Create a prompt asking the purchase quantity
+// Create a prompt asking the purchase quantity and returning an alert if the reply doesn't meet the parameters
 
-function purchase() {
-    var 
+function purchase(){
+    console.log(typeof(purchaseOrder))
+    var purchaseOrder = prompt('How many would you like to purchase?','1-5');
+        while (purchaseOrder === null || purchaseOrder === '0') {
+            purchaseOrder = confirm('You haven\'t made a purchase yet.');
+        }
+        for (purchaseOrder > 0, purchaseOrder <= 5)
+            purchaseOrder = confirm('Thank you for your purchase!');
+        }
+    }
 }
