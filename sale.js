@@ -18,17 +18,21 @@ function sale(){
     document.write('<h3>' + sale + '</h3>');
 }
 
-alert('These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure or prevent any disease.');
-
-var email = prompt('Please join our mailing list for exclusive deals!', 'valuedcustomer@mail.com')
-var reply;
-
-if (email === null) {
-    reply = 'Maybe next time.'; 
-} else if (email === '') {
-    reply = 'Maybe next time.'; 
-} else {
-    reply = 'Thank you!';
+function warning(){
+    alert('These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure or prevent any disease.');
 }
 
+function mailinglist(){
+    var email = prompt('Please join our mailing list for exclusive deals!', 'valuedcustomer@mail.com')
+    var reply;
+
+        if (email === null) {
+        reply = 'Maybe next time.'; 
+    } else if (email === '') {
+    reply = 'Maybe next time.'; 
+    }    else {
+    reply = 'Thank you!';
+    }
+
 alert(reply)
+}
