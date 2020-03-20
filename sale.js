@@ -5,9 +5,9 @@ var sale;
 
 function sale(){
 
-    if (hourNow > 17) {
+    if (hourNow > 14) {
         sale = 'Sale has expired!';
-    } else if (hourNow > 12) {
+    } else if (hourNow > 11) {
         sale = 'Sale ends soon!';
     } else if (hourNow > 0) {
         sale = 'Sale ends this afternoon!';
