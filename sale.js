@@ -36,3 +36,9 @@ function mailinglist(){
 
 alert(reply)
 }
+
+// Create a prompt asking the purchase quantity
+
+function purchase() {
+    var 
+}
